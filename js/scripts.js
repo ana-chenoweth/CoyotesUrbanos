@@ -7,6 +7,8 @@
 // Scripts
 // 
 
+// test commit
+
 window.addEventListener('DOMContentLoaded', event => {
 
     // Navbar shrink function
