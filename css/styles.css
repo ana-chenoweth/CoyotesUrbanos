@@ -1282,6 +1282,7 @@ progress {
   .col-lg-4 {
     flex: 0 0 auto;
     width: 33.33333333%;
+    align-items: center !important;
   }
   .col-lg-5 {
     flex: 0 0 auto;
@@ -11242,6 +11243,7 @@ header.masthead .masthead-heading {
 .team-member {
   margin-bottom: 3rem;
   text-align: center;
+  align-items: center !important;
 }
 .team-member img {
   width: 14rem;
