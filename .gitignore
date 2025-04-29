@@ -1,0 +1,55 @@
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos temporales de edición
+*~
+\#*\#
+
+# Archivos de Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Archivos de configuración de Emacs
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*\#
+
+# Archivos de Org-mode
+.org-id-locations
+*_archive
+
+# Archivos de Flymake
+*_flymake.*
+
+# Archivos de Eshell
+/eshell/history
+/eshell/lastdir
+
+# Paquetes de Emacs
+/elpa/
+
+# Archivos de RefTeX
+*.rel
+
+# AUCTeX auto folder
+/auto/
+
+# Archivos de Cask
+.cask/
+
+# Archivos de dependencias de Node.js (si aplica)
+node_modules/
+
+# Archivos de compilación (si aplica)
+*.o
+*.class
+
+# Archivos de log
+*.log
+
+# Otros archivos temporales (opcional)
+*.tmp
