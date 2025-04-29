@@ -8012,7 +8012,9 @@ textarea.form-control-lg {
 }
 
 .text-uppercase {
-  text-transform: uppercase !important;
+  text-transform: uppercase ;
+  font-size: medium;
+
 }
 
 .text-capitalize {
@@ -11313,4 +11315,8 @@ section#contact form#contactForm :-ms-input-placeholder {
   text-align: center;
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+#mainNav {
+  background-color: #212529 !important; /* el mismo gris oscuro que usa cuando haces scroll */
 }
