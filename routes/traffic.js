@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const generateTrafficDensity = require('../services/densityGenerator');
+const generateTrafficDensity = require('../services/density');
 
 router.get('/density', (req, res) => {
   const hour = parseInt(req.query.hour) || 12;
