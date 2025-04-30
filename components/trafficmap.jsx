@@ -4,7 +4,7 @@ function TrafficMap() {
   const [trafficData, setTrafficData] = useState(null);
   const [loading, setLoading] = useState(true);
 
-  // Replace this with your actual production backend later
+  // Replace this later
   const endpoint = '/api/traffic/density?hour=14&zone=urban';
 
   useEffect(() => {
@@ -23,7 +23,7 @@ function TrafficMap() {
   useEffect(() => {
     if (window.google && trafficData) {
       const map = new window.google.maps.Map(document.getElementById('map'), {
-        center: { lat: -23.5505, lng: -46.6333 }, // São Paulo example
+        center: { lat: -23.5505, lng: -46.6333 }, 
         zoom: 12
       });
 
