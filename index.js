@@ -7,10 +7,8 @@ const app = express();
 app.use(cors());
 app.use('/api/traffic', trafficRoute);
 
-// Serve static assets (CSS, JS, images, etc.)
-app.use(express.static(path.join(__dirname, 'public'))); // 'public' is where your static files will go
+app.use(express.static(path.join(__dirname, 'public')));
 
-// Serve 'index.html' from the root directory when accessing the root route
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'index.html'));
 });
