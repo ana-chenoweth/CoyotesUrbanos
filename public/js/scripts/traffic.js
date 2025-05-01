@@ -5,7 +5,7 @@ window.onload = function () {
 
   const ctx = map.getContext("2d");
   const road = new Road(map.width / 2, map.width * 0.9);
-
+  
   // Main car (AI)
   const car = new Car(road.getLaneCenter(1), 100, 30, 50, "AI", 3, "green");
 
